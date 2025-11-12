@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<title>Resume builder</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Resume builder</h1>
+<form id="resume-form">
+<label>Full name:</label>
+<input type="text" id="name"required><br>
+<label>Email:</label>
+<input type="email" id="email"required><br>
+<label>Phone:</label>
+<input type="text" id="phone"required><br>
+<label>Address:</label>
+<textarea id="address" rows="4"></textarea><br>
+<label> Qualification:</label>
+<textarea id="qualification" rows="4"></textarea><br> 
+<label>Skills:</label>
+<textarea id="skills" rows="4"></textarea><br>
+<button type="submit">SUBMIT</button>
+</form>
+<hr>
+<div id="resume-preview" class="form-container">
+<h2>Your resume</h2>
+<p><strong>Name:</strong><span id="display-name"></span></p>
+<p><strong>Email:</strong><span id="display-email"></span></p>
+<p><strong>Phone:</strong><span id="display-phone"></span></p>
+<p><strong>Address:</strong></p>
+<p id="display-address"></p>
+<p><strong>Qualification:</strong></p>
+<p id="display-qualification"></p>
+<p><strong>Skills:</strong></p>
+<p id="display-skills"></p>
+</div>
+<script src="javascript.js"></script>
+</body>
+</html>
+
+
